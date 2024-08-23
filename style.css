@@ -1,0 +1,80 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.tshirt-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+.tshirt-item {
+    text-align: center;
+}
+
+.tshirt-item img {
+    max-width: 200px;
+    height: auto;
+}
+
+.tshirt-item a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.canvas-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#tshirt-canvas {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+#tshirt-canvas img {
+    max-width: 100%;
+    height: auto;
+}
+
+.icon-strip {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.icon-strip img {
+    margin: 0 5px;
+    width: 50px;
+    cursor: pointer;
+}
+#getNowBtn{
+    margin-left: 30vw;
+    margin-top: 10px;
+    background-color: skyblue;
+    border: 2px solid blue;
+    border-radius: 20px;
+    font-size: 50px;
+}
+#customerForm{
+    margin-left: 30vw;
+}
