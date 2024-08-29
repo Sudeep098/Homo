@@ -23,39 +23,42 @@ header {
 
 
 .tshirt-gallery {
-  max-width: 100%; /* Adjusted to allow full width */
+  max-width: 100%;
   display: flex;
-  flex-wrap: wrap; /* Allows wrapping for responsiveness */
-  justify-content: center; /* Centers the items in the container */
-  gap: 2rem; /* Adds space between the items */
-  margin: 2rem 0; /* Adjusted margins for a more balanced layout */
+  flex-wrap: wrap; /* Allows items to wrap for smaller screens */
+  justify-content: center; /* Centers items within the container */
+  gap: 1rem; /* Adds space between items */
+  margin: 0 auto; /* Centers the gallery on the page */
+  padding: 0 1rem; /* Adds padding to prevent overflow on smaller screens */
+  box-sizing: border-box; /* Ensures padding does not affect the width */
 }
 
 .tshirt-item {
-  flex: 1 1 40%; /* Allows items to flex and sets the base width */
+  flex: 1 1 calc(50% - 2rem); /* Adjusts item width, accounting for the gap */
   text-align: center;
-  margin: 1rem; /* Adds spacing around each item */
+  margin-bottom: 2rem; /* Adds space below each item */
+  box-sizing: border-box; /* Ensures padding does not affect item width */
 }
 
 .tshirt-item{
-  width: 100%; /* Ensures images take full width of their container */
+  width: 100%; /* Ensures the image fills the container */
   height: auto;
-  max-width: 100%; /* Prevents images from exceeding their container's width */
+  max-width: 100%;
 }
 
 .tshirt-item a {
   display: inline-block;
   margin-top: 1rem;
-  padding: 0.5rem 1rem; /* Adds padding for a better button appearance */
+  padding: 0.5rem 1rem;
   background-color: #333;
   color: #fff;
   text-decoration: none;
-  border-radius: 4px; /* Increased for a smoother button look */
-  transition: background-color 0.3s; /* Adds a hover effect */
+  border-radius: 4px;
+  transition: background-color 0.3s;
 }
 
 .tshirt-item a:hover {
-  background-color: #555; /* Changes color on hover for better interactivity */
+  background-color: #555;
 }
 .canvas-container {
     display: flex;
