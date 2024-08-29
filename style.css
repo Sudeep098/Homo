@@ -43,6 +43,7 @@ header {
 .tshirt-item simgs{
   width: 40%; /* Ensures the image fills the container */
   height: auto;
+  margin:2vh;
   max-width: 100%;
 }
 
