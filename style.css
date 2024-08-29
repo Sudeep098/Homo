@@ -23,7 +23,7 @@ header {
 
 
 .tshirt-gallery {
-  max-width: 100%;
+  max-width: 90%;
   display: flex;
   flex-wrap: wrap; /* Allows items to wrap for smaller screens */
   justify-content: center; /* Centers items within the container */
