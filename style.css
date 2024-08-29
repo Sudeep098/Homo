@@ -22,35 +22,41 @@ header {
 }
 
 .tshirt-gallery {
-  max-width:80%;
-  max-height:auto;
+.tshirt-gallery {
+  max-width: 100%; /* Adjusted to allow full width */
   display: flex;
-  justify-content: space-around;
-  margin: 0rem 2rem;
+  flex-wrap: wrap; /* Allows wrapping for responsiveness */
+  justify-content: center; /* Centers the items in the container */
+  gap: 2rem; /* Adds space between the items */
+  margin: 2rem 0; /* Adjusted margins for a more balanced layout */
 }
 
 .tshirt-item {
-    text-align: center;
+  flex: 1 1 40%; /* Allows items to flex and sets the base width */
+  text-align: center;
+  margin: 1rem; /* Adds spacing around each item */
 }
 
-.tshirt-item{
-  width:40%;
+.tshirt-item img {
+  width: 100%; /* Ensures images take full width of their container */
   height: auto;
-}
-.img{
-  max-width:40%;
+  max-width: 100%; /* Prevents images from exceeding their container's width */
 }
 
 .tshirt-item a {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0rem 0rem;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 2px;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem; /* Adds padding for a better button appearance */
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px; /* Increased for a smoother button look */
+  transition: background-color 0.3s; /* Adds a hover effect */
 }
 
+.tshirt-item a:hover {
+  background-color: #555; /* Changes color on hover for better interactivity */
+}
 .canvas-container {
     display: flex;
     justify-content: center;
