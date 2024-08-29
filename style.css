@@ -22,9 +22,11 @@ header {
 }
 
 .tshirt-gallery {
-    display: flex;
-    justify-content: space-around;
-    margin: 0rem 2rem;
+  max-width:100%;
+  max-height:80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0rem 2rem;
 }
 
 .tshirt-item {
@@ -32,6 +34,7 @@ header {
 }
 
 .tshirt-item{
+  width:45vw;
     height: auto;
 }
 .img{
