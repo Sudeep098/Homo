@@ -34,7 +34,7 @@ header {
 }
 
 .tshirt-item {
-  flex: 1 1 calc(50% - 2rem); /* Adjusts item width, accounting for the gap */
+  flex: 1 1 calc(45% - 2rem); /* Adjusts item width, accounting for the gap */
   text-align: center;
   margin-bottom: 2rem; /* Adds space below each item */
   box-sizing: border-box; /* Ensures padding does not affect item width */
@@ -44,6 +44,7 @@ header {
   width: 40%; /* Ensures the image fills the container */
   height: auto;
   margin:2vh;
+  padding:5%;
   max-width: 90%;
 }
 
