@@ -28,7 +28,7 @@ header {
   flex-wrap: wrap; /* Allows items to wrap for smaller screens */
   justify-content: center; /* Centers items within the container */
   gap: 1rem; /* Adds space between items */
-  margin: 0 auto; /* Centers the gallery on the page */
+  margin: 2vh auto; /* Centers the gallery on the page */
   padding: 0 1rem; /* Adds padding to prevent overflow on smaller screens */
   box-sizing: border-box; /* Ensures padding does not affect the width */
 }
