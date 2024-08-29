@@ -22,7 +22,7 @@ header {
 }
 
 .tshirt-gallery {
-  max-width:100%;
+  max-width:80%;
   max-height:80%;
   display: flex;
   justify-content: space-around;
