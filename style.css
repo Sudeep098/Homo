@@ -2,6 +2,7 @@ body {
   overflow-x: hidden;
 }
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -31,7 +32,7 @@ header {
 }
 
 .tshirt-item img {
-    max-width: 200px;
+    max-width: 40%;
     height: auto;
 }
 
