@@ -40,7 +40,7 @@ header {
   box-sizing: border-box; /* Ensures padding does not affect item width */
 }
 
-.tshirt-item{
+.tshirt-item simgs{
   width: 100%; /* Ensures the image fills the container */
   height: auto;
   max-width: 100%;
