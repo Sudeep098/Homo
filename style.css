@@ -21,7 +21,7 @@ header {
     text-align: center;
 }
 
-.tshirt-gallery {
+
 .tshirt-gallery {
   max-width: 100%; /* Adjusted to allow full width */
   display: flex;
@@ -37,7 +37,7 @@ header {
   margin: 1rem; /* Adds spacing around each item */
 }
 
-.tshirt-item img {
+.tshirt-item{
   width: 100%; /* Ensures images take full width of their container */
   height: auto;
   max-width: 100%; /* Prevents images from exceeding their container's width */
