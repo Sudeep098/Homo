@@ -35,10 +35,10 @@ header {
 
 .tshirt-item{
   width:22vw;
-    height: auto;
+  height: auto;
 }
 .img{
-  max-width:45vw;
+  max-width:40%;
 }
 
 .tshirt-item a {
