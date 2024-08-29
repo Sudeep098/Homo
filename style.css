@@ -24,7 +24,7 @@ header {
 .tshirt-gallery {
     display: flex;
     justify-content: space-around;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .tshirt-item {
@@ -32,18 +32,18 @@ header {
 }
 
 .tshirt-item img {
-    max-width: 30%;
+    max-width: 35%;
     height: auto;
 }
 
 .tshirt-item a {
     display: inline-block;
     margin-top: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 0rem 0rem;
     background-color: #333;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 .canvas-container {
